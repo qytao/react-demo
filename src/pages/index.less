@@ -1,3 +1,17 @@
+@side-width: 220px;
+@min-height: 640px;
+
 .title {
   background: rgb(121, 242, 157);
+}
+
+.left {
+  width: @side-width;
+  float: left;
+  min-height: @min-height;
+}
+
+.right {
+  margin-left: @side-width;
+  min-height: @min-height;
 }
